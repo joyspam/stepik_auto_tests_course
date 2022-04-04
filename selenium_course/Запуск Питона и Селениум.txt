@@ -1,0 +1,32 @@
+CMD
+_____________________________________
+ЗАПУСК
+Создадим виртуальное окружение:
+python -m venv selenium_env
+_____________________________________
+Одной командой:
+selenium_env\Scripts\activate.bat
+python c:\Users\user\selenium_course\lesson6_step4.py
+И нажать ENTER
+
+Или подробнее по одной команде
+1. Запуск окружения:
+selenium_env\Scripts\activate.bat
+
+2. Запустим интерпретатор Python:
+python
+
+3. Запуск файла с тестом:
+c:\Users\user\selenium_course\get_method.py
+_____________________________________
+ВЫХОД
+
+Выход из интерпретатора:
+exit()
+
+Остановка окружения
+selenium_env\Scripts\deactivate.bat
+______________________________________
+
+
+
