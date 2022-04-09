@@ -4,8 +4,9 @@ def test_alert(browser):
 
 
   browser.get(link)
+  time.sleep(30)
 
   item = browser.find_elements_by_class_name('btn.btn-lg.btn-primary')
   assert item, 'no item'
 
-  time.sleep(30)
+  
